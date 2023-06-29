@@ -1,5 +1,5 @@
 const Hapi = require('@hapi/hapi');
-const routes = require('./routing_and_request/latihan/routes');
+const routes = require('./routing_and_request/routes');
 
 const init = async () => {
     const server = Hapi.server({
